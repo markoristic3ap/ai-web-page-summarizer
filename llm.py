@@ -1,6 +1,6 @@
 from enum import Enum
-from model_openai import ModelOpenAI
-from model_ollama import ModalOllama
+from llm_models.model_openai import ModelOpenAI
+from llm_models.model_ollama import ModalOllama
 
 class SUPPORTED_LLMS(Enum):
   OPEN_AI = 'openai',

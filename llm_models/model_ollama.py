@@ -1,5 +1,5 @@
 import requests
-from model_base import BaseLLM 
+from llm_models.model_base import BaseLLM 
 import ollama
 
 DEFAULT_MODEL = "llama3.2"

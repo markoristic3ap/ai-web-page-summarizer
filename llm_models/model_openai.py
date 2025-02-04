@@ -1,7 +1,7 @@
 
 import os
 from dotenv import load_dotenv
-from model_base import BaseLLM
+from llm_models.model_base import BaseLLM
 from openai import OpenAI
 
 DEFAULT_MODEL = "gpt-4o-mini"
