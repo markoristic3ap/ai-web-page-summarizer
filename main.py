@@ -6,7 +6,8 @@ llmClient = LLMInterface(provider=SUPPORTED_LLMS.OPEN_AI)
 # llmClient = LLMInterface(provider=SUPPORTED_LLMS.OLLAMA) 
 
 system_prompt = "You are an assistant that analyzes the contents of a website \
-and provides a short summary, ignoring text that might be navigation related."
+and provides a short summary, ignoring text that might be navigation related. \
+You should always answer on Serbian language"
 def user_prompt_for(website):
     user_prompt = f"You are looking at a website titled {website.title}"
     user_prompt += "\nThe contents of this website is as follows; \
@@ -28,4 +29,4 @@ def summarize(url):
     response =llmClient.chat(messages_for(website))
     print(response)
 
-summarize("https://3ap.ch")
+summarize("https://creativewin.net")

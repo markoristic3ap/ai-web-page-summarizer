@@ -14,7 +14,7 @@ class LLMInterface:
     if provider == SUPPORTED_LLMS.OPEN_AI:
       return ModelOpenAI()
     elif provider == SUPPORTED_LLMS.OLLAMA:
-      return ModalOllama(api_url=kwargs['api_url'])
+      return ModalOllama()
     else:
       raise Exception('Unsupported LLM provider')
 

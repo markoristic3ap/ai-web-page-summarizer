@@ -5,8 +5,7 @@ import ollama
 DEFAULT_MODEL = "llama3.2"
 
 class ModalOllama(BaseLLM):
-  def __init__(self, api_url, model=DEFAULT_MODEL):
-      self.api_url = api_url
+  def __init__(self, model=DEFAULT_MODEL):
       self.model = model
       self.initialize_model()
   

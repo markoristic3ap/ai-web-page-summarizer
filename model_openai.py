@@ -17,7 +17,7 @@ class ModelOpenAI(BaseLLM):
     elif self.api_key.strip() != self.api_key:
       print("An API key was found, but it looks like it might have space or tab characters at the start or end")
     else:
-      print("API key found and looks good so far!")
+      print("OpenAI API key found and looks good so far! \n\n")
       self.model = model
       self.initialize_model()
 
