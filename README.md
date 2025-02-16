@@ -35,6 +35,7 @@ pip install -r requirements.txt
 - ***python-dotenv*** – To manage environment variables securely
 - ***beautifulsoup4*** – For parsing and extracting data from HTML
 - ***openai*** – To interact with OpenAI’s API for text summarization
+- ***gradio*** - Provides web interface
 
 ## ✅ Usage
 
