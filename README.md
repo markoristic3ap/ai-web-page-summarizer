@@ -42,6 +42,8 @@ After installing dependencies, you can run the main script:
 ```bash	
 python main.py
 ```
+![Screenshot 2025-02-16 at 20 22 38](https://github.com/user-attachments/assets/81edd0f8-a01c-4a17-8d71-9106c7c4703e)
+
 
 ## 🗑️ Deactivate the Virtual Environment (When Done)
 ```bash
