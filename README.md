@@ -37,6 +37,17 @@ pip install -r requirements.txt
 - ***openai*** – To interact with OpenAI’s API for text summarization
 - ***gradio*** - Provides web interface
 
+### 4. Set Up OpenAI API Key  
+This project requires an **OpenAI API key** for text summarization.  
+
+#### **Steps to Configure API Key:**  
+1. **Obtain an API Key** from OpenAI: [OpenAI API](https://platform.openai.com/signup/)  
+2. **Create a `.env` file** in the project root (or rename `.env.example` to `.env`).  
+3. **Add your API key** inside `.env` like this:  
+```bash
+OPENAI_API_KEY=your-api-key-here
+```
+
 ## ✅ Usage
 
 After installing dependencies, you can run the main script:
